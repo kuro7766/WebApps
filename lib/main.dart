@@ -97,6 +97,14 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               'You have pushed the button this many times:',
             ),
+            GestureDetector(
+              onTap: (){
+                // launch(urlString);
+              },
+              child: Text(
+                'click to launch url',
+              ),
+            ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
