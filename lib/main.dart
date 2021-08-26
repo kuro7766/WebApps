@@ -99,7 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             GestureDetector(
               onTap: (){
-                // launch(urlString);
+                launch('https://kuro7766.github.io/WebApps/web/');
               },
               child: Text(
                 'click to launch url',
